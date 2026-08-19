@@ -1,5 +1,6 @@
 package com.example.repsync.view.screens
 
+import android.graphics.drawable.Icon
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -11,6 +12,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.DeleteSweep
+import androidx.compose.material.icons.filled.SportsGymnastics
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -198,10 +200,9 @@ private fun EmptyWorkoutHistory(
         verticalArrangement = Arrangement.Center
     ) {
 
-        Text(
-            text = "🏃",
-            style = MaterialTheme.typography.displaySmall
-        )
+        Icon(
+            imageVector = Icons.Default.SportsGymnastics,
+            contentDescription = stringResource(R.string.start_workout))
 
         Spacer(
             modifier = Modifier.height(16.dp)
