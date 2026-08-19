@@ -1,0 +1,4 @@
+- `[x]` Update `gradle.properties` with compatibility flag
+- `[x]` Update versions in `libs.versions.toml`
+- `[x]` Fix Hilt dependency typo in `app/build.gradle.kts`
+- `[x]` Verify the build and sync

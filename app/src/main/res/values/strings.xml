@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">RepSync</string>
+
+    <!-- Workout -->
+    <string name="start">START</string>
+    <string name="pause">PAUSE</string>
+    <string name="reset">RESET</string>
+    <string name="start_workout">START WORKOUT</string>
+    <string name="pause_workout">PAUSE WORKOUT</string>
+
+    <!-- Goal -->
+    <string name="change_goal">CHANGE GOAL</string>
+    <string name="calorie_goal">CALORIE GOAL</string>
+    <string name="calories_unit">KCAL</string>
+
+    <!-- Activity -->
+    <string name="activity">ACTIVITY</string>
+    <string name="calories">Calories</string>
+    <string name="steps">Steps</string>
+    <string name="distance">Distance</string>
+    <string name="distance_unit">KM</string>
+    <string name="move">MOVE</string>
+
+    <!-- Goal dialog -->
+    <string name="set_calorie_goal">Set calorie goal</string>
+    <string name="enter_calorie_goal">Enter calorie goal</string>
+    <string name="cancel">CANCEL</string>
+    <string name="save">SAVE</string>
+    <string name="goal_calories">Goal: %1$d KCAL</string>
+    <string name="calorie_amount">%1$d KCAL</string>
+    <string name="goal_reached_title">Goal reached!</string>
+    <string name="goal_reached_message">You reached your calorie goal!.</string>
+    <string name="got_it">GOT IT</string>
+    <string name="keep_going">KEEP GOING</string>
+    <string name="finish">FINISH</string>
+
+    <!-- Workout history -->
+    <string name="workout_history">WORKOUT HISTORY</string>
+    <string name="no_completed_workouts">No completed workouts yet.</string>
+    <string name="workout_pending">Work Out Pending.</string>
+    <string name="clear_history">CLEAR HISTORY</string>
+    <string name="clear_workout_history_title">Clear workout history?</string>
+    <string name="clear_workout_history_message">
+    This will permanently remove all completed workouts.
+</string>
+    <string name="clear">CLEAR</string>
+    <string name="back">BACK</string>
+
+    <!-- Workout statistics -->
+    <string name="duration">Duration</string>
+    <string name="goal">Goal</string>
+
+    <!-- Workout date -->
+    <string name="workout_date_format">dd MMM yyyy • HH:mm</string>
+    <string name="workout_duration_format">%1$02d:%2$02d:%3$02d</string>
+    <string name="workout_goal">Goal: %1$d KCAL</string>
+    <string name="workout_duration">Duration: %1$s</string>
+
+</resources>
